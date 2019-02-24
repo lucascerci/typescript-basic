@@ -11,15 +11,6 @@ var __extends = (this && this.__extends) || (function () {
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
-var Spacecraft = /** @class */ (function () {
-    function Spacecraft(propulsor) {
-        this.propulsor = propulsor;
-    }
-    Spacecraft.prototype.jumpIntoHyperspace = function () {
-        console.log("Entering hyperspace with " + this.propulsor);
-    };
-    return Spacecraft;
-}());
 var ship = new Spacecraft('hyperdrive');
 ship.jumpIntoHyperspace();
 var MilleniumFalcon = /** @class */ (function (_super) {
