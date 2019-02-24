@@ -6,4 +6,4 @@ npm install typescript -g
 
 tsc -w 
 
-node dist/nomeDoArquivo.js
+node dist/nomeDoArquivo
