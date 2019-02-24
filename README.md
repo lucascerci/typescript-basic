@@ -4,4 +4,4 @@ commands:
 
 npm install typescript -g
 
-node dist/{nomeDoArquivo.js
+node dist/nomeDoArquivo.js
